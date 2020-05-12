@@ -11,7 +11,7 @@
     <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
     @livewireStyles
-    <title>Todo Project</title>
+    <title>Todo Project | Laravel 7</title>
 </head>
 
 <body>
