@@ -12,9 +12,10 @@
 
     @foreach($comments as $comment)
     <div class="my-2 p-3 border rounded shadow">
-        <div class="flex justify-start my-2">
+        <div class="flex justify-between my-2">
             <p class="front-bold text-lg">{{ $comment->creator->name }}</p>
             <p class="px-3 py-1 text-gray-500 font-semibold text-xs">{{ $comment->created_at->diffForhumans() }}</p>
+            <span wire:click="remove({{ $comment->id }})" class="fas fa-times text-red-200 hover:text-red-500 cursor-pointer"></span>
         </div>
         <div class="text-gray-800">{{ $comment->body }}
         </div>
